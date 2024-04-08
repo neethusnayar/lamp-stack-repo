@@ -1,0 +1,16 @@
+---    
+webserver_packages:
+  - httpd
+  - php
+  - php-mysqlnd
+httpd_port: 80
+httpd_servername: "website.thirdeyestechnicalservices.com"
+httpd_docroot: "/var/www/html/default/"
+httpd_owner: "apache"
+httpd_group: "apache"
+
+mariadb_root_password: "mysqlrootpass@@@"
+mariadb_extra_user: "wpuser"
+mariadb_extra_password: "wpuserpassword@@@"
+mariadb_extra_db: "wpuser"
+
